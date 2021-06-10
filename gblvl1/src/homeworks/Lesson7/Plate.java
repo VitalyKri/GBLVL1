@@ -5,12 +5,17 @@ public class Plate {
     public Plate(int food) {
         this.food = food;
     }
+<<<<<<< Updated upstream
     public boolean decreaseFood(int n) {
         if (n > food) {
             return false;
         }
         food -= n;
         return true;
+=======
+    public void decreaseFood(int n) {
+        food -= n;
+>>>>>>> Stashed changes
     }
 
 
