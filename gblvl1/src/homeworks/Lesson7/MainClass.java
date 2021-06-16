@@ -1,7 +1,5 @@
 package homeworks.Lesson7;
 
-import homeworks.Lesson6.Animal;
-
 public class MainClass {
     public static void main(String[] args) {
         СatLes7[] cats = {new СatLes7("Barsik",5),

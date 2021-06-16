@@ -20,14 +20,13 @@ public class СatLes7 {
     }
 
     public void eat(Plate p) {
-<<<<<<< Updated upstream
         this.full = p.decreaseFood(appetite);
-=======
+
         if ((this.full) || (p.food < this.appetite)){
             return;
         }
         p.decreaseFood(appetite);
         full = true;
->>>>>>> Stashed changes
+
     }
 }

@@ -1,6 +1,6 @@
 package homeworks.Lesson6;
 
-abstract public class Animal {
+abstract class Animal {
     protected String name;
     private static int countAnimal = 0;
     protected int maxRun;
